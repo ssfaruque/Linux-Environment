@@ -16,6 +16,7 @@ sudo apt install -y docker.io docker-compose
 sudo apt install -y vim
 cp .vimrc ~/.vimrc
 vim -c "PlugInstall"
+pip3 install --user pynvim # Fixes deoplete issue
 
 #tmux
 sudo apt install -y tmux
