@@ -54,8 +54,10 @@ else
 endif
 let g:deoplete#enable_at_startup = 1
 
-Plug 'zchee/deoplete-clang'
+"Plug 'zchee/deoplete-clang'
+Plug 'Shougo/deoplete-clangx'
 Plug 'deoplete-plugins/deoplete-jedi'
+Plug 'Shougo/neoinclude.vim'
 
 
 if isdirectory('/usr/local/opt/fzf')
